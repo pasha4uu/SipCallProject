@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6197632227090D400834C25 /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6197631227090D400834C25 /* SVViewController.m */; };
 		D6587A7D225B2E2A00AB4388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6587A7C225B2E2A00AB4388 /* AppDelegate.m */; };
 		D6587A80225B2E2A00AB4388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6587A7F225B2E2A00AB4388 /* ViewController.m */; };
 		D6587A83225B2E2A00AB4388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6587A81225B2E2A00AB4388 /* Main.storyboard */; };
@@ -15,6 +16,71 @@
 		D6587A8B225B2E2F00AB4388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6587A8A225B2E2F00AB4388 /* main.m */; };
 		D6587A95225B2E2F00AB4388 /* SipCallProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6587A94225B2E2F00AB4388 /* SipCallProjectTests.m */; };
 		D6587AA0225B2E2F00AB4388 /* SipCallProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6587A9F225B2E2F00AB4388 /* SipCallProjectUITests.m */; };
+		D6587AC9225B2EB500AB4388 /* linphonerc-factory in Resources */ = {isa = PBXBuildFile; fileRef = D6587AC7225B2EB500AB4388 /* linphonerc-factory */; };
+		D6587ACA225B2EB500AB4388 /* linphonerc in Resources */ = {isa = PBXBuildFile; fileRef = D6587AC8225B2EB500AB4388 /* linphonerc */; };
+		D6587AF3225B2EE900AB4388 /* libopenh264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ACC225B2EDC00AB4388 /* libopenh264.a */; };
+		D6587AF4225B2EE900AB4388 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ACD225B2EDC00AB4388 /* libopencore-amrnb.a */; };
+		D6587AF5225B2EE900AB4388 /* libebml2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ACE225B2EDC00AB4388 /* libebml2.a */; };
+		D6587AF6225B2EE900AB4388 /* liblinphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ACF225B2EDD00AB4388 /* liblinphone.a */; };
+		D6587AF7225B2EE900AB4388 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD0225B2EDD00AB4388 /* libstdc++.6.tbd */; };
+		D6587AF8225B2EE900AB4388 /* libmediastreamer_voip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD1225B2EDD00AB4388 /* libmediastreamer_voip.a */; };
+		D6587AF9225B2EE900AB4388 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD2225B2EDE00AB4388 /* libswscale.a */; };
+		D6587AFA225B2EE900AB4388 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD3225B2EDE00AB4388 /* libc++abi.tbd */; };
+		D6587AFB225B2EE900AB4388 /* libtunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD4225B2EDE00AB4388 /* libtunnel.a */; };
+		D6587AFC225B2EE900AB4388 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD5225B2EDE00AB4388 /* libxml2.tbd */; };
+		D6587AFD225B2EE900AB4388 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD6225B2EDE00AB4388 /* libopencore-amrwb.a */; };
+		D6587AFE225B2EE900AB4388 /* libpolarssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD7225B2EDF00AB4388 /* libpolarssl.a */; };
+		D6587AFF225B2EE900AB4388 /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD8225B2EDF00AB4388 /* libspeexdsp.a */; };
+		D6587B00225B2EE900AB4388 /* libvo-amrwbenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AD9225B2EDF00AB4388 /* libvo-amrwbenc.a */; };
+		D6587B01225B2EE900AB4388 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ADA225B2EDF00AB4388 /* libx264.a */; };
+		D6587B02225B2EE900AB4388 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ADB225B2EE000AB4388 /* libavutil.a */; };
+		D6587B03225B2EE900AB4388 /* libortp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ADC225B2EE000AB4388 /* libortp.a */; };
+		D6587B04225B2EE900AB4388 /* libbzrtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ADD225B2EE000AB4388 /* libbzrtp.a */; };
+		D6587B05225B2EE900AB4388 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ADE225B2EE000AB4388 /* libsqlite3.tbd */; };
+		D6587B06225B2EE900AB4388 /* libsrtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587ADF225B2EE000AB4388 /* libsrtp.a */; };
+		D6587B07225B2EE900AB4388 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE0225B2EE100AB4388 /* libz.tbd */; };
+		D6587B08225B2EE900AB4388 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE1225B2EE100AB4388 /* libswresample.a */; };
+		D6587B09225B2EE900AB4388 /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE2225B2EE100AB4388 /* libvpx.a */; };
+		D6587B0A225B2EE900AB4388 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE3225B2EE100AB4388 /* libresolv.tbd */; };
+		D6587B0B225B2EE900AB4388 /* libmatroska2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE4225B2EE100AB4388 /* libmatroska2.a */; };
+		D6587B0C225B2EE900AB4388 /* libgsm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE5225B2EE100AB4388 /* libgsm.a */; };
+		D6587B0D225B2EE900AB4388 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE6225B2EE100AB4388 /* libstdc++.tbd */; };
+		D6587B0E225B2EE900AB4388 /* libantlr3c.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE7225B2EE100AB4388 /* libantlr3c.a */; };
+		D6587B0F225B2EE900AB4388 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE8225B2EE200AB4388 /* libopus.a */; };
+		D6587B10225B2EE900AB4388 /* libcunit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AE9225B2EE200AB4388 /* libcunit.a */; };
+		D6587B11225B2EE900AB4388 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AEA225B2EE200AB4388 /* libstdc++.6.0.9.tbd */; };
+		D6587B12225B2EE900AB4388 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AEB225B2EE200AB4388 /* libspeex.a */; };
+		D6587B13225B2EE900AB4388 /* libbellesip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AEC225B2EE300AB4388 /* libbellesip.a */; };
+		D6587B14225B2EE900AB4388 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AED225B2EE700AB4388 /* libavcodec.a */; };
+		D6587B15225B2EE900AB4388 /* libbcg729.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AEE225B2EE800AB4388 /* libbcg729.a */; };
+		D6587B16225B2EE900AB4388 /* libbctoolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AEF225B2EE800AB4388 /* libbctoolbox.a */; };
+		D6587B17225B2EE900AB4388 /* liblinphonetester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AF0225B2EE800AB4388 /* liblinphonetester.a */; };
+		D6587B18225B2EE900AB4388 /* libmediastreamer_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AF1225B2EE900AB4388 /* libmediastreamer_base.a */; };
+		D6587B19225B2EE900AB4388 /* libcorec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587AF2225B2EE900AB4388 /* libcorec.a */; };
+		D6587B22225B2F0D00AB4388 /* soft_as_snow.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B1B225B2F0C00AB4388 /* soft_as_snow.mkv */; };
+		D6587B23225B2F0D00AB4388 /* toy-mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6587B1C225B2F0C00AB4388 /* toy-mono.wav */; };
+		D6587B24225B2F0D00AB4388 /* hello8000.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6587B1D225B2F0C00AB4388 /* hello8000.wav */; };
+		D6587B25225B2F0D00AB4388 /* hello16000.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6587B1E225B2F0C00AB4388 /* hello16000.wav */; };
+		D6587B26225B2F0D00AB4388 /* dont_wait_too_long.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B1F225B2F0D00AB4388 /* dont_wait_too_long.mkv */; };
+		D6587B27225B2F0D00AB4388 /* incoming_chat.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6587B20225B2F0D00AB4388 /* incoming_chat.wav */; };
+		D6587B28225B2F0D00AB4388 /* ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6587B21225B2F0D00AB4388 /* ringback.wav */; };
+		D6587B31225B2F2D00AB4388 /* notes_of_the_optimistic.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B2A225B2F2C00AB4388 /* notes_of_the_optimistic.mkv */; };
+		D6587B32225B2F2D00AB4388 /* leaving_dreams.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B2B225B2F2C00AB4388 /* leaving_dreams.mkv */; };
+		D6587B33225B2F2D00AB4388 /* four_hands_together.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B2C225B2F2C00AB4388 /* four_hands_together.mkv */; };
+		D6587B34225B2F2D00AB4388 /* its_a_game.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B2D225B2F2C00AB4388 /* its_a_game.mkv */; };
+		D6587B35225B2F2D00AB4388 /* oldphone-mono-30s.caf in Resources */ = {isa = PBXBuildFile; fileRef = D6587B2E225B2F2C00AB4388 /* oldphone-mono-30s.caf */; };
+		D6587B36225B2F2D00AB4388 /* oldphone-mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6587B2F225B2F2C00AB4388 /* oldphone-mono.wav */; };
+		D6587B37225B2F2D00AB4388 /* house_keeping.mkv in Resources */ = {isa = PBXBuildFile; fileRef = D6587B30225B2F2D00AB4388 /* house_keeping.mkv */; };
+		D6587B3B225B2FA200AB4388 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587B3A225B2FA200AB4388 /* AVFoundation.framework */; };
+		D6587B3D225B2FAD00AB4388 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587B3C225B2FAD00AB4388 /* CoreFoundation.framework */; };
+		D6587B3F225B2FB600AB4388 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587B3E225B2FB600AB4388 /* CoreData.framework */; };
+		D6587B41225B2FC000AB4388 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587B40225B2FC000AB4388 /* CoreMedia.framework */; };
+		D6587B43225B2FD100AB4388 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587B42225B2FD100AB4388 /* AudioToolbox.framework */; };
+		D6587B45225B2FDA00AB4388 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6587B44225B2FDA00AB4388 /* CoreAudio.framework */; };
+		D6587B48225B301800AB4388 /* LinphoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6587B47225B301800AB4388 /* LinphoneManager.swift */; };
+		D6587B4B225B47D800AB4388 /* PhoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6587B4A225B47D800AB4388 /* PhoneManager.swift */; };
+		D6587B4D225B4A6400AB4388 /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6587B4C225B4A6400AB4388 /* Secret.plist */; };
+		D6FC83362271BAA8005F25D2 /* Single.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC83352271BAA8005F25D2 /* Single.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +101,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6197630227090D400834C25 /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
+		D6197631227090D400834C25 /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
 		D6587A78225B2E2A00AB4388 /* SipCallProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SipCallProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6587A7B225B2E2A00AB4388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6587A7C225B2E2A00AB4388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +119,95 @@
 		D6587A9B225B2E2F00AB4388 /* SipCallProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SipCallProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6587A9F225B2E2F00AB4388 /* SipCallProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SipCallProjectUITests.m; sourceTree = "<group>"; };
 		D6587AA1225B2E2F00AB4388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6587AB0225B2E9300AB4388 /* linphonecore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphonecore.h; sourceTree = "<group>"; };
+		D6587AB1225B2E9300AB4388 /* conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conference.h; sourceTree = "<group>"; };
+		D6587AB2225B2E9300AB4388 /* lpconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lpconfig.h; sourceTree = "<group>"; };
+		D6587AB3225B2E9300AB4388 /* liblinphone_tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblinphone_tester.h; sourceTree = "<group>"; };
+		D6587AB4225B2E9300AB4388 /* call_params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_params.h; sourceTree = "<group>"; };
+		D6587AB5225B2E9300AB4388 /* linphonepresence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphonepresence.h; sourceTree = "<group>"; };
+		D6587AB6225B2E9300AB4388 /* ringtoneplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ringtoneplayer.h; sourceTree = "<group>"; };
+		D6587AB7225B2E9400AB4388 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		D6587AB8225B2E9400AB4388 /* content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content.h; sourceTree = "<group>"; };
+		D6587AB9225B2E9400AB4388 /* lpc2xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lpc2xml.h; sourceTree = "<group>"; };
+		D6587ABA225B2E9400AB4388 /* account_creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = account_creator.h; sourceTree = "<group>"; };
+		D6587ABB225B2E9400AB4388 /* linphone_tunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphone_tunnel.h; sourceTree = "<group>"; };
+		D6587ABC225B2E9400AB4388 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		D6587ABD225B2E9400AB4388 /* friendlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friendlist.h; sourceTree = "<group>"; };
+		D6587ABE225B2E9400AB4388 /* linphonecore_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphonecore_utils.h; sourceTree = "<group>"; };
+		D6587ABF225B2E9400AB4388 /* linphone_proxy_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphone_proxy_config.h; sourceTree = "<group>"; };
+		D6587AC0225B2E9400AB4388 /* call_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_log.h; sourceTree = "<group>"; };
+		D6587AC1225B2E9400AB4388 /* sipsetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sipsetup.h; sourceTree = "<group>"; };
+		D6587AC2225B2E9500AB4388 /* xmlrpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlrpc.h; sourceTree = "<group>"; };
+		D6587AC3225B2E9500AB4388 /* bc_tester_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bc_tester_utils.h; sourceTree = "<group>"; };
+		D6587AC4225B2E9500AB4388 /* xml2lpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xml2lpc.h; sourceTree = "<group>"; };
+		D6587AC5225B2E9500AB4388 /* linphonefriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linphonefriend.h; sourceTree = "<group>"; };
+		D6587AC7225B2EB500AB4388 /* linphonerc-factory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "linphonerc-factory"; sourceTree = "<group>"; };
+		D6587AC8225B2EB500AB4388 /* linphonerc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linphonerc; sourceTree = "<group>"; };
+		D6587ACC225B2EDC00AB4388 /* libopenh264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenh264.a; sourceTree = "<group>"; };
+		D6587ACD225B2EDC00AB4388 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		D6587ACE225B2EDC00AB4388 /* libebml2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libebml2.a; sourceTree = "<group>"; };
+		D6587ACF225B2EDD00AB4388 /* liblinphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblinphone.a; sourceTree = "<group>"; };
+		D6587AD0225B2EDD00AB4388 /* libstdc++.6.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		D6587AD1225B2EDD00AB4388 /* libmediastreamer_voip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmediastreamer_voip.a; sourceTree = "<group>"; };
+		D6587AD2225B2EDE00AB4388 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		D6587AD3225B2EDE00AB4388 /* libc++abi.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		D6587AD4225B2EDE00AB4388 /* libtunnel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtunnel.a; sourceTree = "<group>"; };
+		D6587AD5225B2EDE00AB4388 /* libxml2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		D6587AD6225B2EDE00AB4388 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		D6587AD7225B2EDF00AB4388 /* libpolarssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpolarssl.a; sourceTree = "<group>"; };
+		D6587AD8225B2EDF00AB4388 /* libspeexdsp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeexdsp.a; sourceTree = "<group>"; };
+		D6587AD9225B2EDF00AB4388 /* libvo-amrwbenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libvo-amrwbenc.a"; sourceTree = "<group>"; };
+		D6587ADA225B2EDF00AB4388 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		D6587ADB225B2EE000AB4388 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		D6587ADC225B2EE000AB4388 /* libortp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libortp.a; sourceTree = "<group>"; };
+		D6587ADD225B2EE000AB4388 /* libbzrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbzrtp.a; sourceTree = "<group>"; };
+		D6587ADE225B2EE000AB4388 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D6587ADF225B2EE000AB4388 /* libsrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsrtp.a; sourceTree = "<group>"; };
+		D6587AE0225B2EE100AB4388 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D6587AE1225B2EE100AB4388 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		D6587AE2225B2EE100AB4388 /* libvpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvpx.a; sourceTree = "<group>"; };
+		D6587AE3225B2EE100AB4388 /* libresolv.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		D6587AE4225B2EE100AB4388 /* libmatroska2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmatroska2.a; sourceTree = "<group>"; };
+		D6587AE5225B2EE100AB4388 /* libgsm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgsm.a; sourceTree = "<group>"; };
+		D6587AE6225B2EE100AB4388 /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		D6587AE7225B2EE100AB4388 /* libantlr3c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libantlr3c.a; sourceTree = "<group>"; };
+		D6587AE8225B2EE200AB4388 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		D6587AE9225B2EE200AB4388 /* libcunit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcunit.a; sourceTree = "<group>"; };
+		D6587AEA225B2EE200AB4388 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		D6587AEB225B2EE200AB4388 /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeex.a; sourceTree = "<group>"; };
+		D6587AEC225B2EE300AB4388 /* libbellesip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbellesip.a; sourceTree = "<group>"; };
+		D6587AED225B2EE700AB4388 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		D6587AEE225B2EE800AB4388 /* libbcg729.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbcg729.a; sourceTree = "<group>"; };
+		D6587AEF225B2EE800AB4388 /* libbctoolbox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbctoolbox.a; sourceTree = "<group>"; };
+		D6587AF0225B2EE800AB4388 /* liblinphonetester.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblinphonetester.a; sourceTree = "<group>"; };
+		D6587AF1225B2EE900AB4388 /* libmediastreamer_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmediastreamer_base.a; sourceTree = "<group>"; };
+		D6587AF2225B2EE900AB4388 /* libcorec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcorec.a; sourceTree = "<group>"; };
+		D6587B1B225B2F0C00AB4388 /* soft_as_snow.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = soft_as_snow.mkv; sourceTree = "<group>"; };
+		D6587B1C225B2F0C00AB4388 /* toy-mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "toy-mono.wav"; sourceTree = "<group>"; };
+		D6587B1D225B2F0C00AB4388 /* hello8000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello8000.wav; sourceTree = "<group>"; };
+		D6587B1E225B2F0C00AB4388 /* hello16000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello16000.wav; sourceTree = "<group>"; };
+		D6587B1F225B2F0D00AB4388 /* dont_wait_too_long.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dont_wait_too_long.mkv; sourceTree = "<group>"; };
+		D6587B20225B2F0D00AB4388 /* incoming_chat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incoming_chat.wav; sourceTree = "<group>"; };
+		D6587B21225B2F0D00AB4388 /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringback.wav; sourceTree = "<group>"; };
+		D6587B2A225B2F2C00AB4388 /* notes_of_the_optimistic.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = notes_of_the_optimistic.mkv; sourceTree = "<group>"; };
+		D6587B2B225B2F2C00AB4388 /* leaving_dreams.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = leaving_dreams.mkv; sourceTree = "<group>"; };
+		D6587B2C225B2F2C00AB4388 /* four_hands_together.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = four_hands_together.mkv; sourceTree = "<group>"; };
+		D6587B2D225B2F2C00AB4388 /* its_a_game.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = its_a_game.mkv; sourceTree = "<group>"; };
+		D6587B2E225B2F2C00AB4388 /* oldphone-mono-30s.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oldphone-mono-30s.caf"; sourceTree = "<group>"; };
+		D6587B2F225B2F2C00AB4388 /* oldphone-mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "oldphone-mono.wav"; sourceTree = "<group>"; };
+		D6587B30225B2F2D00AB4388 /* house_keeping.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house_keeping.mkv; sourceTree = "<group>"; };
+		D6587B3A225B2FA200AB4388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D6587B3C225B2FAD00AB4388 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D6587B3E225B2FB600AB4388 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D6587B40225B2FC000AB4388 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D6587B42225B2FD100AB4388 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D6587B44225B2FDA00AB4388 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D6587B46225B301700AB4388 /* SipCallProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SipCallProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6587B47225B301800AB4388 /* LinphoneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinphoneManager.swift; sourceTree = "<group>"; };
+		D6587B4A225B47D800AB4388 /* PhoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneManager.swift; sourceTree = "<group>"; };
+		D6587B4C225B4A6400AB4388 /* Secret.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
+		D6FC83342271BAA8005F25D2 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		D6FC83352271BAA8005F25D2 /* Single.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Single.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +215,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6587B45225B2FDA00AB4388 /* CoreAudio.framework in Frameworks */,
+				D6587B43225B2FD100AB4388 /* AudioToolbox.framework in Frameworks */,
+				D6587B41225B2FC000AB4388 /* CoreMedia.framework in Frameworks */,
+				D6587B3F225B2FB600AB4388 /* CoreData.framework in Frameworks */,
+				D6587B3D225B2FAD00AB4388 /* CoreFoundation.framework in Frameworks */,
+				D6587B3B225B2FA200AB4388 /* AVFoundation.framework in Frameworks */,
+				D6587B0B225B2EE900AB4388 /* libmatroska2.a in Frameworks */,
+				D6587AFF225B2EE900AB4388 /* libspeexdsp.a in Frameworks */,
+				D6587AF6225B2EE900AB4388 /* liblinphone.a in Frameworks */,
+				D6587B05225B2EE900AB4388 /* libsqlite3.tbd in Frameworks */,
+				D6587B01225B2EE900AB4388 /* libx264.a in Frameworks */,
+				D6587B0E225B2EE900AB4388 /* libantlr3c.a in Frameworks */,
+				D6587AFA225B2EE900AB4388 /* libc++abi.tbd in Frameworks */,
+				D6587B00225B2EE900AB4388 /* libvo-amrwbenc.a in Frameworks */,
+				D6587B03225B2EE900AB4388 /* libortp.a in Frameworks */,
+				D6587B0F225B2EE900AB4388 /* libopus.a in Frameworks */,
+				D6587B04225B2EE900AB4388 /* libbzrtp.a in Frameworks */,
+				D6587B10225B2EE900AB4388 /* libcunit.a in Frameworks */,
+				D6587B18225B2EE900AB4388 /* libmediastreamer_base.a in Frameworks */,
+				D6587B16225B2EE900AB4388 /* libbctoolbox.a in Frameworks */,
+				D6587B19225B2EE900AB4388 /* libcorec.a in Frameworks */,
+				D6587AF9225B2EE900AB4388 /* libswscale.a in Frameworks */,
+				D6587B02225B2EE900AB4388 /* libavutil.a in Frameworks */,
+				D6587AFB225B2EE900AB4388 /* libtunnel.a in Frameworks */,
+				D6587B11225B2EE900AB4388 /* libstdc++.6.0.9.tbd in Frameworks */,
+				D6587AF8225B2EE900AB4388 /* libmediastreamer_voip.a in Frameworks */,
+				D6587B06225B2EE900AB4388 /* libsrtp.a in Frameworks */,
+				D6587B0D225B2EE900AB4388 /* libstdc++.tbd in Frameworks */,
+				D6587AFC225B2EE900AB4388 /* libxml2.tbd in Frameworks */,
+				D6587B13225B2EE900AB4388 /* libbellesip.a in Frameworks */,
+				D6587B0C225B2EE900AB4388 /* libgsm.a in Frameworks */,
+				D6587B12225B2EE900AB4388 /* libspeex.a in Frameworks */,
+				D6587AFD225B2EE900AB4388 /* libopencore-amrwb.a in Frameworks */,
+				D6587AF3225B2EE900AB4388 /* libopenh264.a in Frameworks */,
+				D6587B07225B2EE900AB4388 /* libz.tbd in Frameworks */,
+				D6587AF4225B2EE900AB4388 /* libopencore-amrnb.a in Frameworks */,
+				D6587AF7225B2EE900AB4388 /* libstdc++.6.tbd in Frameworks */,
+				D6587AF5225B2EE900AB4388 /* libebml2.a in Frameworks */,
+				D6587B17225B2EE900AB4388 /* liblinphonetester.a in Frameworks */,
+				D6587B08225B2EE900AB4388 /* libswresample.a in Frameworks */,
+				D6587AFE225B2EE900AB4388 /* libpolarssl.a in Frameworks */,
+				D6587B14225B2EE900AB4388 /* libavcodec.a in Frameworks */,
+				D6587B09225B2EE900AB4388 /* libvpx.a in Frameworks */,
+				D6587B0A225B2EE900AB4388 /* libresolv.tbd in Frameworks */,
+				D6587B15225B2EE900AB4388 /* libbcg729.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +283,7 @@
 		D6587A6F225B2E2A00AB4388 = {
 			isa = PBXGroup;
 			children = (
+				D6587B39225B2F6C00AB4388 /* Frameworks */,
 				D6587A7A225B2E2A00AB4388 /* SipCallProject */,
 				D6587A93225B2E2F00AB4388 /* SipCallProjectTests */,
 				D6587A9E225B2E2F00AB4388 /* SipCallProjectUITests */,
@@ -101,15 +304,25 @@
 		D6587A7A225B2E2A00AB4388 /* SipCallProject */ = {
 			isa = PBXGroup;
 			children = (
+				D6587B4C225B4A6400AB4388 /* Secret.plist */,
+				D6587AC6225B2EA000AB4388 /* Resources */,
+				D6587AAF225B2E6900AB4388 /* Header */,
 				D6587A7B225B2E2A00AB4388 /* AppDelegate.h */,
 				D6587A7C225B2E2A00AB4388 /* AppDelegate.m */,
+				D6FC83342271BAA8005F25D2 /* Single.h */,
+				D6FC83352271BAA8005F25D2 /* Single.m */,
 				D6587A7E225B2E2A00AB4388 /* ViewController.h */,
 				D6587A7F225B2E2A00AB4388 /* ViewController.m */,
+				D6197630227090D400834C25 /* SVViewController.h */,
+				D6197631227090D400834C25 /* SVViewController.m */,
+				D6587B47225B301800AB4388 /* LinphoneManager.swift */,
 				D6587A81225B2E2A00AB4388 /* Main.storyboard */,
 				D6587A84225B2E2F00AB4388 /* Assets.xcassets */,
 				D6587A86225B2E2F00AB4388 /* LaunchScreen.storyboard */,
 				D6587A89225B2E2F00AB4388 /* Info.plist */,
 				D6587A8A225B2E2F00AB4388 /* main.m */,
+				D6587B46225B301700AB4388 /* SipCallProject-Bridging-Header.h */,
+				D6587B4A225B47D800AB4388 /* PhoneManager.swift */,
 			);
 			path = SipCallProject;
 			sourceTree = "<group>";
@@ -130,6 +343,134 @@
 				D6587AA1225B2E2F00AB4388 /* Info.plist */,
 			);
 			path = SipCallProjectUITests;
+			sourceTree = "<group>";
+		};
+		D6587AAF225B2E6900AB4388 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D6587ABA225B2E9400AB4388 /* account_creator.h */,
+				D6587AC3225B2E9500AB4388 /* bc_tester_utils.h */,
+				D6587ABC225B2E9400AB4388 /* buffer.h */,
+				D6587AC0225B2E9400AB4388 /* call_log.h */,
+				D6587AB4225B2E9300AB4388 /* call_params.h */,
+				D6587AB1225B2E9300AB4388 /* conference.h */,
+				D6587AB8225B2E9400AB4388 /* content.h */,
+				D6587AB7225B2E9400AB4388 /* event.h */,
+				D6587ABD225B2E9400AB4388 /* friendlist.h */,
+				D6587AB3225B2E9300AB4388 /* liblinphone_tester.h */,
+				D6587ABF225B2E9400AB4388 /* linphone_proxy_config.h */,
+				D6587ABB225B2E9400AB4388 /* linphone_tunnel.h */,
+				D6587ABE225B2E9400AB4388 /* linphonecore_utils.h */,
+				D6587AB0225B2E9300AB4388 /* linphonecore.h */,
+				D6587AC5225B2E9500AB4388 /* linphonefriend.h */,
+				D6587AB5225B2E9300AB4388 /* linphonepresence.h */,
+				D6587AB9225B2E9400AB4388 /* lpc2xml.h */,
+				D6587AB2225B2E9300AB4388 /* lpconfig.h */,
+				D6587AB6225B2E9300AB4388 /* ringtoneplayer.h */,
+				D6587AC1225B2E9400AB4388 /* sipsetup.h */,
+				D6587AC4225B2E9500AB4388 /* xml2lpc.h */,
+				D6587AC2225B2E9500AB4388 /* xmlrpc.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		D6587AC6225B2EA000AB4388 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6587B1A225B2EEF00AB4388 /* Linphone */,
+				D6587ACB225B2EBA00AB4388 /* Library */,
+				D6587AC8225B2EB500AB4388 /* linphonerc */,
+				D6587AC7225B2EB500AB4388 /* linphonerc-factory */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6587ACB225B2EBA00AB4388 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D6587AE7225B2EE100AB4388 /* libantlr3c.a */,
+				D6587AED225B2EE700AB4388 /* libavcodec.a */,
+				D6587ADB225B2EE000AB4388 /* libavutil.a */,
+				D6587AEE225B2EE800AB4388 /* libbcg729.a */,
+				D6587AEF225B2EE800AB4388 /* libbctoolbox.a */,
+				D6587AEC225B2EE300AB4388 /* libbellesip.a */,
+				D6587ADD225B2EE000AB4388 /* libbzrtp.a */,
+				D6587AD3225B2EDE00AB4388 /* libc++abi.tbd */,
+				D6587AF2225B2EE900AB4388 /* libcorec.a */,
+				D6587AE9225B2EE200AB4388 /* libcunit.a */,
+				D6587ACE225B2EDC00AB4388 /* libebml2.a */,
+				D6587AE5225B2EE100AB4388 /* libgsm.a */,
+				D6587ACF225B2EDD00AB4388 /* liblinphone.a */,
+				D6587AF0225B2EE800AB4388 /* liblinphonetester.a */,
+				D6587AE4225B2EE100AB4388 /* libmatroska2.a */,
+				D6587AF1225B2EE900AB4388 /* libmediastreamer_base.a */,
+				D6587AD1225B2EDD00AB4388 /* libmediastreamer_voip.a */,
+				D6587ACD225B2EDC00AB4388 /* libopencore-amrnb.a */,
+				D6587AD6225B2EDE00AB4388 /* libopencore-amrwb.a */,
+				D6587ACC225B2EDC00AB4388 /* libopenh264.a */,
+				D6587AE8225B2EE200AB4388 /* libopus.a */,
+				D6587ADC225B2EE000AB4388 /* libortp.a */,
+				D6587AD7225B2EDF00AB4388 /* libpolarssl.a */,
+				D6587AE3225B2EE100AB4388 /* libresolv.tbd */,
+				D6587AEB225B2EE200AB4388 /* libspeex.a */,
+				D6587AD8225B2EDF00AB4388 /* libspeexdsp.a */,
+				D6587ADE225B2EE000AB4388 /* libsqlite3.tbd */,
+				D6587ADF225B2EE000AB4388 /* libsrtp.a */,
+				D6587AEA225B2EE200AB4388 /* libstdc++.6.0.9.tbd */,
+				D6587AD0225B2EDD00AB4388 /* libstdc++.6.tbd */,
+				D6587AE6225B2EE100AB4388 /* libstdc++.tbd */,
+				D6587AE1225B2EE100AB4388 /* libswresample.a */,
+				D6587AD2225B2EDE00AB4388 /* libswscale.a */,
+				D6587AD4225B2EDE00AB4388 /* libtunnel.a */,
+				D6587AD9225B2EDF00AB4388 /* libvo-amrwbenc.a */,
+				D6587AE2225B2EE100AB4388 /* libvpx.a */,
+				D6587ADA225B2EDF00AB4388 /* libx264.a */,
+				D6587AD5225B2EDE00AB4388 /* libxml2.tbd */,
+				D6587AE0225B2EE100AB4388 /* libz.tbd */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D6587B1A225B2EEF00AB4388 /* Linphone */ = {
+			isa = PBXGroup;
+			children = (
+				D6587B29225B2F1000AB4388 /* rings */,
+				D6587B1F225B2F0D00AB4388 /* dont_wait_too_long.mkv */,
+				D6587B1D225B2F0C00AB4388 /* hello8000.wav */,
+				D6587B1E225B2F0C00AB4388 /* hello16000.wav */,
+				D6587B20225B2F0D00AB4388 /* incoming_chat.wav */,
+				D6587B21225B2F0D00AB4388 /* ringback.wav */,
+				D6587B1B225B2F0C00AB4388 /* soft_as_snow.mkv */,
+				D6587B1C225B2F0C00AB4388 /* toy-mono.wav */,
+			);
+			path = Linphone;
+			sourceTree = "<group>";
+		};
+		D6587B29225B2F1000AB4388 /* rings */ = {
+			isa = PBXGroup;
+			children = (
+				D6587B2C225B2F2C00AB4388 /* four_hands_together.mkv */,
+				D6587B30225B2F2D00AB4388 /* house_keeping.mkv */,
+				D6587B2D225B2F2C00AB4388 /* its_a_game.mkv */,
+				D6587B2B225B2F2C00AB4388 /* leaving_dreams.mkv */,
+				D6587B2A225B2F2C00AB4388 /* notes_of_the_optimistic.mkv */,
+				D6587B2E225B2F2C00AB4388 /* oldphone-mono-30s.caf */,
+				D6587B2F225B2F2C00AB4388 /* oldphone-mono.wav */,
+			);
+			path = rings;
+			sourceTree = "<group>";
+		};
+		D6587B39225B2F6C00AB4388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6587B44225B2FDA00AB4388 /* CoreAudio.framework */,
+				D6587B42225B2FD100AB4388 /* AudioToolbox.framework */,
+				D6587B40225B2FC000AB4388 /* CoreMedia.framework */,
+				D6587B3E225B2FB600AB4388 /* CoreData.framework */,
+				D6587B3C225B2FAD00AB4388 /* CoreFoundation.framework */,
+				D6587B3A225B2FA200AB4388 /* AVFoundation.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,11 +535,12 @@
 		D6587A70225B2E2A00AB4388 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = lhitservices;
 				TargetAttributes = {
 					D6587A77225B2E2A00AB4388 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					D6587A8F225B2E2F00AB4388 = {
 						CreatedOnToolsVersion = 10.1;
@@ -235,9 +577,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6587B33225B2F2D00AB4388 /* four_hands_together.mkv in Resources */,
+				D6587B25225B2F0D00AB4388 /* hello16000.wav in Resources */,
+				D6587ACA225B2EB500AB4388 /* linphonerc in Resources */,
+				D6587B34225B2F2D00AB4388 /* its_a_game.mkv in Resources */,
 				D6587A88225B2E2F00AB4388 /* LaunchScreen.storyboard in Resources */,
+				D6587B23225B2F0D00AB4388 /* toy-mono.wav in Resources */,
+				D6587AC9225B2EB500AB4388 /* linphonerc-factory in Resources */,
+				D6587B32225B2F2D00AB4388 /* leaving_dreams.mkv in Resources */,
+				D6587B27225B2F0D00AB4388 /* incoming_chat.wav in Resources */,
+				D6587B35225B2F2D00AB4388 /* oldphone-mono-30s.caf in Resources */,
+				D6587B22225B2F0D00AB4388 /* soft_as_snow.mkv in Resources */,
+				D6587B31225B2F2D00AB4388 /* notes_of_the_optimistic.mkv in Resources */,
+				D6587B4D225B4A6400AB4388 /* Secret.plist in Resources */,
+				D6587B37225B2F2D00AB4388 /* house_keeping.mkv in Resources */,
+				D6587B36225B2F2D00AB4388 /* oldphone-mono.wav in Resources */,
+				D6587B24225B2F0D00AB4388 /* hello8000.wav in Resources */,
 				D6587A85225B2E2F00AB4388 /* Assets.xcassets in Resources */,
+				D6587B28225B2F0D00AB4388 /* ringback.wav in Resources */,
 				D6587A83225B2E2A00AB4388 /* Main.storyboard in Resources */,
+				D6587B26225B2F0D00AB4388 /* dont_wait_too_long.mkv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +621,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6587B48225B301800AB4388 /* LinphoneManager.swift in Sources */,
+				D6587B4B225B47D800AB4388 /* PhoneManager.swift in Sources */,
 				D6587A80225B2E2A00AB4388 /* ViewController.m in Sources */,
+				D6197632227090D400834C25 /* SVViewController.m in Sources */,
 				D6587A8B225B2E2F00AB4388 /* main.m in Sources */,
 				D6587A7D225B2E2A00AB4388 /* AppDelegate.m in Sources */,
+				D6FC83362271BAA8005F25D2 /* Single.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +790,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -435,14 +799,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MJ7C4LU7NT;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SipCallProject/Header\"",
+					"\"$(SRCROOT)/liblinphone-sdk/apple-darwin/include\"",
+				);
 				INFOPLIST_FILE = SipCallProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SipCallProject/Resources/Library",
+					"\"$(SRCROOT)/liblinphone-sdk/apple-darwin/include\"",
+					"\"$(SRCROOT)/liblinphone-sdk/apple-darwin/lib\"",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Pasha.SipCallProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lhitservices/Desktop/SipCallProject/SipCallProject/SipCallProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,14 +832,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MJ7C4LU7NT;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SipCallProject/Header\"",
+					"\"$(SRCROOT)/liblinphone-sdk/apple-darwin/include\"",
+				);
 				INFOPLIST_FILE = SipCallProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SipCallProject/Resources/Library",
+					"\"$(SRCROOT)/liblinphone-sdk/apple-darwin/include\"",
+					"\"$(SRCROOT)/liblinphone-sdk/apple-darwin/lib\"",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Pasha.SipCallProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lhitservices/Desktop/SipCallProject/SipCallProject/SipCallProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,6 +863,7 @@
 		D6587AA8225B2E2F00AB4388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SipCallProjectTests/Info.plist;
@@ -484,6 +882,7 @@
 		D6587AA9225B2E2F00AB4388 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SipCallProjectTests/Info.plist;
@@ -502,6 +901,7 @@
 		D6587AAB225B2E2F00AB4388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SipCallProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -519,6 +919,7 @@
 		D6587AAC225B2E2F00AB4388 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SipCallProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
